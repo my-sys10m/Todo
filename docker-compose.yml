@@ -1,7 +1,7 @@
 services:
-  nginx:
+  proxy:
     image: nginx:1.26.2-alpine3.20
-    container_name: nginx
+    container_name: proxy
     ports:
       - "80:80"
     volumes:
